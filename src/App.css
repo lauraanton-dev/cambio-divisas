@@ -94,16 +94,24 @@ button:hover {
 /*DISEÑO RESPONSIVO*/
 /*Pantallas pequeñas*/
 @media (max-width: 600px){
+  .titulo{
+    font-size: 2rem;
+    margin-right: 20px;
+    margin-right: 20px;
+  }
+  .main{
+    width:100%;
+    margin:0;
+  }
   .input-container {
     flex-direction: column; /* Los elementos se apilan en una columna */
     align-items: center; /* Los elementos ocuparán todo el ancho disponible */
-    padding: 28px 10px;
    }
   .input-container input,
   .input-container select {
     width: 100%; /* En pantallas pequeñas, los elementos ocuparán todo el ancho disponible */
-    height: 20px;
-    font-size: 1rem;
+    height: 29px;
+    font-size: 1.1rem;
   }
   .header img{
     width: 80px;
@@ -139,7 +147,8 @@ button:hover {
     padding-top: 60px;
   }
   .footer{
-    padding-top: 300px;
+    padding: 40px;
+    margin-top: 500px;
   }
 }
 

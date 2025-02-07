@@ -23,7 +23,7 @@ function Main() {
       });
   }, []);
 
-  // Función para convertir la moneda
+  // Función para convertir las moneda
   const convertCurrency = () => {
     if (!amount || isNaN(amount)) return;
 
@@ -50,7 +50,6 @@ function Main() {
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
         />
-
         
         <label id="label-from">De: </label>
         <select
