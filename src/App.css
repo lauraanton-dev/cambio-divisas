@@ -175,6 +175,10 @@ button:hover {
   .titulo{
     font-size: 3rem;
   }
+  .main{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
   .input-container input,
   .input-container select {
     width: auto; 
